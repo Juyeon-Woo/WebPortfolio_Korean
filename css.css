@@ -1,0 +1,69 @@
+/*total size : 1900*1500px
+main size : 1600*1500px
+  Aside size : 300*1500px*
+  navy color code : #041230
+  orange color code: #e3872d/*/
+
+*{padding:0;margin:0;font-family: "Open Sans";font-family: 'Roboto Mono', monospace;color:#041230}
+        /* transition-duration */
+        .wrap{overflow:hidden;font-size:20px}
+        .aside{width:300px;height:100vh;background:#041230;position:fixed}
+        .aside a{color:white}
+        /*.aside ul li a{display:block;}*/
+        .menu{
+          text-align: left;margin-left:60px;font-size:20px;line-height: 55px;list-style:none;padding-left:0px;padding-top:30px;}
+        .menu a:hover{background-color: #e3872d }
+        a{text-decoration:none}
+        #logo{padding:50px 50px 50px 50px;}
+        .container{width:1600px;}
+        .contents{width:1600px}
+        /*1:main*/
+        .middle_1{width:1600px;height: 100vh;margin-left:300px;padding-top:250px;text-align: center;background-image: url(img/bg2.png);}
+        .name1{color:white;font-size: 60px}
+        .name2{color:#e3872d;font-size:60px}
+        .name3{color:white;font-size:30px}
+        /*2:about me*/
+        .middle_2{width:1600px;height:100vh;background-color: white;padding-left:500px;padding-top:100px;}
+        .about{color:#000;padding-left:15px;}
+        .about1{font-size: 60px;}
+        .about2{font-size:20px;}
+        .me{overflow:hidden;margin-top:100px;}
+        .p_about{float:left;}
+        .t_about,
+        .t_about2,
+        .t_about3{color:#000;margin-left:50px;margin-top:50px}
+        .t_about{float:left;font-size:30px;}
+        .t_about2{float:left;font-size:20px;}
+        .t_about3{float:left;font-size:25px;font-family: 'Lobster', cursive;}
+        /*3:skills*/
+        .middle_3{width:1600px;height: 100vh;margin-left:300px;padding-left:200px;padding-top:100px;background-image: url(img/bg3.png);}
+        .skills{color:#000;padding-left:15px;}
+        .skill1{font-size:60px;}
+        .skill2{font-size:20px;}
+        .skills2{color:#000}
+        .skills2 table{text-align: center}
+
+        /*4:portfolio*/
+        .middle_4{width:1600px;height:100vh;margin-left:300px;padding-left:200px;padding-top:100px;text-align: left;background-color: white;}
+        .po{color:#000;padding-left:15px;}
+        .po1{font-size:60px;}
+         .po2{font-size:20px;}
+       
+         
+         /*5:contact*/
+         .middle_5{height:100vh}
+          .middle_5_1{
+            width:1600px;
+            height:600px;
+            margin-left:300px;
+            padding-top:100px;
+            padding-left:200px;
+            
+            background-color: white;}
+            .cont{color:#000;padding-left:15px;}
+            .cont1{font-size: 60px;}
+            .cont2{font-size:20px;}
+            .contt{padding-top:100px;margin-left:30px;}
+            .contt a:hover{background-color:white;color: #e3872d }
+        .footer{margin-left:300px;height:300px;width:1600px;background-color:#041230;}
+        .f_copy{margin-left:200px;padding-top:15px;font-size: 15px;color:white}
